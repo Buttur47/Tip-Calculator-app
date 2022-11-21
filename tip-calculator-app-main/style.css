@@ -1,0 +1,205 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+#logo {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.container0 {
+    width: 10%;
+    height: 10%;
+    background-color: hsl(185, 41%, 84%);
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    margin: -25px 0 0 -25px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.container1 {
+    width: 55%;
+    height: 60%;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 23%;
+    left: 24%;
+    margin: -25px 0 0 -25px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.container2 {
+    width: 47%;
+    height: 87%;
+    background-color: hsl(183, 100%, 15%);
+    position: absolute;
+    top: 7%;
+    left: 48%;
+    display: flex;
+    border-radius: 20px;
+}
+
+.bill_div_title {
+    width: 40%;
+    height: 10%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 6%;
+    left: 4%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.bill_div {
+    width: 40%;
+    height: 10%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 13%;
+    left: 4%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.num_people_div {
+    width: 40%;
+    height: 10%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 81%;
+    left: 4%;
+    display: flex;
+    border-radius: 10px;
+}
+.five_percent {
+    width: 12%;
+    height: 10%;
+    background-color: hsl(183, 100%, 15%);
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.ten_percent {
+    width: 12%;
+    height: 10%;
+    background-color: hsl(183, 100%, 15%);
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.fifteen_percent {
+    width: 12%;
+    height: 10%;
+    background-color: hsl(183, 100%, 15%);
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.twenty_percent {
+    width: 12%;
+    height: 10%;
+    background-color: hsl(183, 100%, 15%);
+    position: absolute;
+    top: 55%;
+    left: 4%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.fifty_percent {
+    width: 12%;
+    height: 10%;
+    background-color: hsl(183, 100%, 15%);
+    position: absolute;
+    top: 55%;
+    left: 18%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.custom_percent {
+    width: 12%;
+    height: 10%;
+    background-color: hsl(183, 100%, 15%);
+    position: absolute;
+    top: 55%;
+    left: 32%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.tip_amount_per_person {
+    width: 40%;
+    height: 15%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.tip_amount_per_person_price {
+    width: 40%;
+    height: 15%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.total_amount_per_person {
+    width: 40%;
+    height: 15%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.total_amount_per_person_price {
+    width: 40%;
+    height: 15%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.reset {
+    width: 80%;
+    height: 10%;
+    background-color: hsl(172, 67%, 45%);
+    position: absolute;
+    top: 83%;
+    left: 10%;
+    display: flex;
+    border-radius: 10px;
+}

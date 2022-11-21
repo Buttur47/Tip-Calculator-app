@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <title>Tip Calculator App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color:hsl(185, 41%, 84%);">
+  <script src="main.js">
+  </script>
+  <div class="container0">
+    <img id="logo" src="images\logo.svg" />
+  </div>
+  <div class="container1">
+    <p id="values" style="font-size: 100px;">
+    </p>
+    <div class="container2">
+      <p id="text" style="color:white" ></p>
+      <div class="tip_amount_per_person">
+        <p style="margin:left">Tip Amount
+        <br>/ person<br></p>
+      </div>
+      <div class="tip_amount_per_person_price">
+      </div>
+      <div class="total_amount_per_person">
+        <p style="margin:left">Total
+          <br>/ person<br></p>
+      </div>
+      <div class="total_amount_per_person_price" id="result">
+      </div>
+      <div class="reset">
+        <p style="margin:auto">RESET</p>
+      </div>
+    </div>
+    <div class="bill_div_title">
+      <p>Bill</p>
+    </div>
+    <input type="number"class="bill_div" id="bill_total" oninput="updateValue()">
+    <div class="five_percent">
+    </div>
+    <div class="ten_percent">
+    </div>
+    <div class="fifteen_percent">
+    </div>
+    <div class="twenty_percent">
+    </div>
+    <div class="fifty_percent">
+    </div>
+    <div class="custom_percent">
+    </div>
+    <input class="num_people_div">
+  </div>
+</body>
+
+</html>

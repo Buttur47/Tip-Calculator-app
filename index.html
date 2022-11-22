@@ -22,7 +22,7 @@
     <div class="container2">
       <p id="text" style="color:white" ></p>
       <div class="tip_amount_per_person">
-        <p style="margin:left">Tip Amount
+        <p style="margin:center">Tip Amount
         <br>/ person<br></p>
       </div>
       <div class="tip_amount_per_person_price">
@@ -31,7 +31,8 @@
         <p style="margin:left">Total
           <br>/ person<br></p>
       </div>
-      <div class="total_amount_per_person_price" id="result">
+      <div class="total_amount_per_person_price">
+        <p style="margin:auto;" id="result"></p>
       </div>
       <div class="reset">
         <p style="margin:auto">RESET</p>
@@ -40,20 +41,36 @@
     <div class="bill_div_title">
       <p>Bill</p>
     </div>
-    <input type="number"class="bill_div" id="bill_total" oninput="updateValue()">
+    <input style="border:0px;" type="number" class="bill_div" id="bill_total" oninput="updateValue()">
+    <div class="dollar_sign_div">
+      <img id="dollar_sign" src="images\icon-dollar.svg" />
+    </div>
+    <div class="tip_title">
+      <p>Select Tip %</p>
+    </div>
     <div class="five_percent">
+      <p style="margin:auto; color:white;">5%</p>
     </div>
     <div class="ten_percent">
+      <p style="margin:auto; color:white;">10%</p>
     </div>
     <div class="fifteen_percent">
+      <p style="margin:auto; color:white;">15%</p>
     </div>
     <div class="twenty_percent">
+      <p style="margin:auto; color:white;">20%</p>
     </div>
     <div class="fifty_percent">
+      <p style="margin:auto; color:white;">50%</p>
     </div>
-    <div class="custom_percent">
+    <input style="color:white; text-align:center;" type="number" class="custom_percent" placeholder="Custom">
+    <div class="number_of_people_title">
+      <p>Number of People</p>
     </div>
-    <input class="num_people_div">
+    <input style="border:0px;" type="number" class="num_people_div">
+    <div class="icon_person_div">
+      <img id="icon_person" src="images\icon-person.svg"/>
+    </div>
   </div>
 </body>
 

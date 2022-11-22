@@ -5,6 +5,22 @@ body {
     margin: 0;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
 
 #logo {
     width: 40%;
@@ -14,6 +30,48 @@ body {
     position: absolute;
     top: 40%;
     left: 35%;
+}
+
+#dollar_sign {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 26%;
+    left: 15%;
+}
+
+#icon_person {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 26%;
+    left: 15%;
+}
+
+.dollar_sign_div {
+    width: 10%;
+    height: 10%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 13%;
+    left: 4%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.icon_person_div {
+    width: 10%;
+    height: 10%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 81%;
+    left: 4%;
+    display: flex;
+    border-radius: 10px;
 }
 
 .container0 {
@@ -71,6 +129,18 @@ body {
     left: 4%;
     display: flex;
     border-radius: 10px;
+    text-align: right;
+}
+
+.number_of_people_title {
+    width: 40%;
+    height: 10%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 73%;
+    left: 4%;
+    display: flex;
+    border-radius: 10px;
 }
 
 .num_people_div {
@@ -82,7 +152,20 @@ body {
     left: 4%;
     display: flex;
     border-radius: 10px;
+    text-align: right;
 }
+
+.tip_title {
+    width: 40%;
+    height: 10%;
+    background-color: hsl(189, 41%, 97%);
+    position: absolute;
+    top: 32%;
+    left: 4%;
+    display: flex;
+    border-radius: 10px;
+}
+
 .five_percent {
     width: 12%;
     height: 10%;
@@ -139,14 +222,15 @@ body {
 }
 
 .custom_percent {
-    width: 12%;
-    height: 10%;
+    width: 11.5%;
+    height: 9.5%;
     background-color: hsl(183, 100%, 15%);
     position: absolute;
     top: 55%;
     left: 32%;
     display: flex;
     border-radius: 10px;
+    border: 0px;
 }
 
 .tip_amount_per_person {

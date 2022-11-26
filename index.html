@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color:black;">
+<body style="background-color:hsl(185, 41%, 84%);">
   <script src="main.js">
   </script>
   <div class="container0">
@@ -22,19 +22,24 @@
     <div class="container2">
       <p id="text" style="color:white"></p>
       <div class="tip_amount_per_person">
-        <p style="margin:center">Tip Amount
-          <br>/ person<br>
+        <p style="margin:center; color:white;">Tip Amount
         </p>
+      </div>
+      <div class="per_person0">
+        <p style="color:grey; font-size: 10px;">/ person</p>
       </div>
       <div class="tip_amount_per_person_price">
+        <p style="margin:auto; color:hsl(172, 67%, 45%); font-size:30px;" id="tip_per_person_result"></p>
       </div>
       <div class="total_amount_per_person">
-        <p style="margin:left">Total
-          <br>/ person<br>
+        <p style="margin:center; color:white;" >Total
         </p>
       </div>
-      <div class="total_amount_per_person_price">
-        <p style="margin:auto;" id="result"></p>
+      <div class="total_amount_per_person_price" >
+        <p style="margin:auto; color:hsl(172, 67%, 45%); font-size:30px;" id="total_per_person_result"></p>
+      </div>
+      <div class="per_person1">
+        <p style="color:grey; font-size: 10px;">/ person</p>
       </div>
       <button class="reset" style="text-align: center; margin: auto; display:table-cell; vertical-align:middle;
         " onclick="window.location.reload();">RESET</button>
@@ -42,33 +47,33 @@
     <div class="bill_div_title">
       <p>Bill</p>
     </div>
-    <input style="border:0px;" type="number" class="bill_div" id="bill_total" oninput="updateValue()">
+    <input style="border:0px;" type="number" class="bill_div" id="bill_total" placeholder="0" oninput="updateBill()">
     <div class="dollar_sign_div">
       <img id="dollar_sign" src="images\icon-dollar.svg" />
     </div>
     <div class="tip_title">
       <p>Select Tip %</p>
     </div>
-    <div class="five_percent">
+    <button class="five_percent" onclick="five_tip()">
       <p style="margin:auto; color:white;">5%</p>
-    </div>
-    <div class="ten_percent">
+    </button>
+    <button class="ten_percent" onclick="ten_tip()">
       <p style="margin:auto; color:white;">10%</p>
-    </div>
-    <div class="fifteen_percent">
+    </button>
+    <button class="fifteen_percent" onclick="fifteen_tip()">
       <p style="margin:auto; color:white;">15%</p>
-    </div>
-    <div class="twenty_percent">
+    </button>
+    <button class="twenty_percent" onclick="twenty_tip()">
       <p style="margin:auto; color:white;">20%</p>
-    </div>
-    <div class="fifty_percent">
+    </button>
+    <button class="fifty_percent" onclick="fifty_tip()">
       <p style="margin:auto; color:white;">50%</p>
-    </div>
-    <input style="color:white; text-align:center;" type="number" class="custom_percent" placeholder="Custom">
+    </button>
+    <input style="color:hsl(183, 100%, 15%); text-align:center;" type="number" class="custom_percent" id="custom" placeholder="Custom %" oninput="custom_tip()">
     <div class="number_of_people_title">
       <p>Number of People</p>
     </div>
-    <input style="border:0px;" type="number" class="num_people_div">
+    <input style="border:0px;" type="number" class="num_people_div" id="num_people" placeholder="0" oninput="updateBill()">
     <div class="icon_person_div">
       <img id="icon_person" src="images\icon-person.svg" />
     </div>

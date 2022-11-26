@@ -5,6 +5,24 @@ body {
     margin: 0;
 }
 
+@font-face {
+    font-family: "Space Mono";
+    src: url("Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+    font-weight: 700, 700, 700;
+}
+
+p {
+    font-size: 16px;
+    line-height: 100%;
+    font-family: "Space Mono";
+}
+
+input {
+    font-size: 16px;
+    line-height: 100%;
+    font-family: "Space Mono";
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none !important;
@@ -112,9 +130,9 @@ textarea:focus {
 .bill_div_title {
     width: 40%;
     height: 10%;
-    background-color: hsl(189, 41%, 97%);
+    background-color: hsl(0, 0%, 100%);
     position: absolute;
-    top: 6%;
+    top: 3.5%;
     left: 4%;
     display: flex;
     border-radius: 10px;
@@ -135,9 +153,9 @@ textarea:focus {
 .number_of_people_title {
     width: 40%;
     height: 10%;
-    background-color: hsl(189, 41%, 97%);
+    background-color: hsl(0, 0%, 100%);
     position: absolute;
-    top: 73%;
+    top: 70%;
     left: 4%;
     display: flex;
     border-radius: 10px;
@@ -158,9 +176,9 @@ textarea:focus {
 .tip_title {
     width: 40%;
     height: 10%;
-    background-color: hsl(189, 41%, 97%);
+    background-color: hsl(0, 0%, 100%);
     position: absolute;
-    top: 32%;
+    top: 29%;
     left: 4%;
     display: flex;
     border-radius: 10px;
@@ -221,10 +239,18 @@ textarea:focus {
     border-radius: 10px;
 }
 
+.five_percent:active,
+.ten_percent:active,
+.fifteen_percent:active,
+.twenty_percent:active,
+.fifty_percent:active {
+    background-color: hsl(172, 67%, 45%);
+}
+
 .custom_percent {
     width: 11.5%;
     height: 9.5%;
-    background-color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
     position: absolute;
     top: 55%;
     left: 32%;
@@ -236,7 +262,7 @@ textarea:focus {
 .tip_amount_per_person {
     width: 40%;
     height: 15%;
-    background-color: hsl(189, 41%, 97%);
+    background-color: hsl(183, 100%, 15%);
     position: absolute;
     top: 10%;
     left: 8%;
@@ -247,7 +273,7 @@ textarea:focus {
 .tip_amount_per_person_price {
     width: 40%;
     height: 15%;
-    background-color: hsl(189, 41%, 97%);
+    background-color: hsl(183, 100%, 15%);
     position: absolute;
     top: 10%;
     left: 55%;
@@ -258,9 +284,31 @@ textarea:focus {
 .total_amount_per_person {
     width: 40%;
     height: 15%;
-    background-color: hsl(189, 41%, 97%);
+    background-color: hsl(183, 100%, 15%);
     position: absolute;
     top: 30%;
+    left: 8%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.per_person0 {
+    width: 40%;
+    height: 12%;
+    background-color: hsl(183, 100%, 15%);
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.per_person1 {
+    width: 40%;
+    height: 15%;
+    background-color: hsl(183, 100%, 15%);
+    position: absolute;
+    top: 39%;
     left: 8%;
     display: flex;
     border-radius: 10px;
@@ -269,7 +317,7 @@ textarea:focus {
 .total_amount_per_person_price {
     width: 40%;
     height: 15%;
-    background-color: hsl(189, 41%, 97%);
+    background-color: hsl(183, 100%, 15%);
     position: absolute;
     top: 30%;
     left: 55%;
